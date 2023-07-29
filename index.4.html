@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.4.css">
+
+</head>
+<body>
+<div class="container">
+    <h1 class="addd">GeeksforGeeks</h1>
+    <h3 class="abbb mt-3">Bootstrap|Open dropdown menu on hover</h3>
+    <div class="row my-5">
+        <div class="col-md-12 ml-5">
+            <ul class="list-unstyled">
+                <li class="d-inline-block dropdown">
+                    <a href="#">Home</a>
+                </li>
+                <li class="d-inline-block dropdown ml-5">
+                    <a href="#">Login</a>
+                </li>
+                <li class="d-inline-block dropdown ml-5">
+                    <a href="#">SignUp</a>
+                </li>
+                <button type="button" class="btn ml-5" data-toggle="dropdown" data-target="menu"><a href="#">Menu</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-items ml-2">Algo</li>
+                        <li class="dropdown-items ml-2">Gate</li>
+                        <li class="dropdown-items ml-2">Subject</li>
+                        <li class="dropdown-items ml-2">Practise</li>
+                    </ul>
+                </button>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
